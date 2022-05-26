@@ -1,0 +1,11 @@
+<%= turbo_stream_from @user %>
+<div id="avatar">
+  <%= render partial: "users/avatar", locals: {user: @user} %>
+</div>
+<%# <div id="<%= dom_id user %1>"> %>
+<%#   <p> %>
+<%#     <strong>Avatar:</strong> %>
+<%#     <%= link_to user.avatar.filename, user.avatar if user.avatar.attached? %1> %>
+<%#   </p> %>
+
+<%# </div> %>
